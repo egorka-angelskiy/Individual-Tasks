@@ -73,10 +73,6 @@ int *transposition_matrix(int rows, int columns, int **matrix)
 
 int task2()
 {
-    printf("\n\n\t\t\t\t\t\t\t\t2. Дана целочисленная матрица размера M x N. Найти номер первого из её столб-"
-            "\n\t\t\t\t\t\t\t\t\t\tцов, содержащих максимальное количество одинаковых элементов.\n");
-
-
     int rows = 3 + rand() % 6,
         columns = 2 + rand() % 6;
 
