@@ -100,6 +100,6 @@ int main(int argc, char const *argv[])
 {
     setlocale(LC_ALL, "Russian");
     srand(time(NULL));
-    task2();
+    task3();
     return 0;
 }
